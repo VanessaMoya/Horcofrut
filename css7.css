@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+header{
+    background-color: #ffffff;
+}
+
+body{
+    background-color: #006633;
+    width: 100%;
+}
+
+
+.superior{
+
+    overflow: hidden;
+}
+
+.logo{  
+    float:left;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.menu{
+    display: inline;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+    padding: 20px 10px;
+    border-radius: 20px;
+    margin: 20px; 
+    
+}
+.c:hover{
+    cursor: pointer;
+    background-color: #009966;
+}
+nav{
+    padding: 30px;
+    margin-right: 100px;
+    margin-top: 10px; 
+}
+
+#tb{
+    display: inline;
+    float:right;
+}
+
+.titulo{
+    text-align: center;
+    color: #ff7600;
+    margin:50px;
+}
+
+
+.art1{                 
+    display: inline-block;
+    text-align: center;
+    background-color: #666600;
+    padding: 30px;
+    width: 40%;
+    margin:18px;
+    border-radius: 10px;
+    margin-left: 300px;
+    
+}
+
+.art2{
+    display: inline-block;
+    text-align: left;
+    text-align: center;
+    background-color: #666600;
+    padding: 30px;
+    width: 40%;
+    margin:18px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.art1 img, .art2 img{
+    width: 60%;
+    height: 300px;
+    margin-top: 50px;
+}
+
+.t{
+    text-align: center;
+   
+    margin:30px;
+}
+.t1{
+    text-align: initial;
+   
+    margin:30px;
+}
+.t2{
+    color: darkblue;
+}
+
+.formu{
+    text-align: center;
+    margin-left: 120px;
+}
+#task{
+    float: left;
+}
+
+#a{
+    text-align: start;
+}
+
+#x{
+    text-align-last: end;
+}

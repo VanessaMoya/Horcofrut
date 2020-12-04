@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Horcofrut</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css5.css" rel="stylesheet" type="text/css"/>
+    </head>
+        <body>
+        <div>
+            <header class="superior">
+                <div class="logo">
+                    <img src="Horcofrut.jpeg" alt=""/>
+                </div>  
+                <nav>
+                    <ul>
+                        <input class = "menu c" type="button" onclick="location.href='Pag1.html';" value="Inicio" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag2.html';" value="Productos" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag3.html';" value="Perfil" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag7.html';" value="Ayuda" />
+                    </ul>
+                <ul>
+                    <table id = tb>
+                        <tr>
+                            <td><input type="text" id="unob"></td>
+                            <td><input type="button" id="uno" onclick="location.href='http://www.google.com';" value="Búsqueda"></td>
+                        </tr>
+                    </table>
+                    </ul>
+                </nav>
+            </header>
+            
+            <section>
+                <h1 class="titulo">PAGO Y DELIVERY</h1>
+            </section>
+                <article class="art1">
+                                      
+                    <form class ="formu" action="hola.php" onsubmit=" return CREAR();">
+            
+                        <h3 class="t">DIRECCIÓN</h3>
+                        <textarea id="task" rows="10" cols="40"></textarea>
+                
+                        <table>
+                            <tr>
+                                <td>Total a pagar</td>
+                                <td><input type="text" value = "$"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </article>
+            
+                <article class="art2">
+        
+                    <form Class ="formu" action="hola.php" onsubmit=" return ENVIAR();">
+            
+                        <h3 class = "t">METODO DE PAGO</h3>
+                
+                        <table>
+                            <tr>
+                                <td><input type="radio" name="hm">EFECTIVO</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="hm">PAYPAL</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="hm">VISA</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="hm">MASTERCARD</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="hm">CUENTA RUT</td>
+                            </tr>
+                    
+                            <tr>
+                                <td></td> 
+                                <td><input type="button" onclick="location.href='Pag6.html';" value="FINALIZAR"></td>
+                            </tr>    
+                        </table>
+                    </form>
+                </article>
+        </div>
+    </body>
+</html>

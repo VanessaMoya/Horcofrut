@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Horcofrut</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css7.css" rel="stylesheet" type="text/css"/>
+        <script src="3.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+            <header class="superior">
+                <div class="logo">
+                    <img src="Horcofrut.jpeg" alt=""/>
+                </div>  
+                <nav>
+                    <ul>
+                        <input class = "menu c" type="button" onclick="location.href='Pag1.html';" value="Inicio" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag2.html';" value="Productos" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag3.html';" value="Perfil" />
+                        <input class = "menu c" type="button" onclick="location.href='Pag7.html';" value="Ayuda" />
+                    </ul>
+                    <ul>
+                        <table id = tb>
+                            <tr>
+                                <td><input type="text" id="unob"></td>
+                                <td><input type="button" id="uno" onclick="location.href='http://www.google.com';" value="Búsqueda"></td>
+                            </tr>
+                        </table>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <article class="art1">
+
+                <form class ="formu" action="hola.php" onsubmit=" return CREAR();">
+
+                    <h3 class="t">AYUDA</h3>
+                    <input type="text" value = "ASUNTO">
+                    <textarea rows="10" cols="40"></textarea>
+                    <br>
+
+                    <input type="button" value="ENVIAR" onClick="AYUDA()">
+
+
+                </form>
+            </article>
+
+            <article class="art2">
+
+                <form Class ="formu">
+
+                    <h3 class = "t">PREGUNTAS FRECUENTES</h3>
+
+                    <h5 class = "t1 t2">P: ¿Cuantos productos puedo comprar?</h5>
+                    <h5 class = "t1">R: Puede comprar los productos que usted desee</h5>
+                    <h5 class = "t1 t2">P: ¿Cuál es la política de devolución?</h5>
+                    <h5 class = "t1">R: La devolución de cualquier producto no es posible, ya que se trata de verduras y frutas, las cuales se descomponen</h5>
+                    <h5 class = "t1 t2">P: ¿Puedo acceder a la página web desde cualquier dispositivo?</h5>
+                    <h5 class = "t1">R: Si, solo necesitas una conexión a internet.</h5>
+                    <h5 class = "t1 t2">P: ¿Cuáles son los tiempos de envío?</h5>
+                    <h5 class = "t1">R: Su pedido se puede demorar entre 1 a 3 días, asegurando que sus productos lleguen en perfectas condiciones.</h5>
+                </form>
+            </article>
+        </div>
+    </body>
+</html>
